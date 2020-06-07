@@ -66,8 +66,6 @@ THE SOFTWARE.
 
 @angular/material/dialog
 
-@angular/material/menu
-
 @angular/material/snack-bar
 
 @angular/material/tooltip
