@@ -62,7 +62,15 @@ THE SOFTWARE.
 
 @angular/material/button
 
+@angular/material/datepicker
+
+@angular/material/dialog
+
 @angular/material/menu
+
+@angular/material/snack-bar
+
+@angular/material/tooltip
 
 @angular/platform-browser
 MIT
