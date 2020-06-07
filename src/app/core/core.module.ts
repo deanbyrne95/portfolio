@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SharedModule } from '../shared/shared.module';
 import { HomeComponent } from './components/home/home.component';
-import { WorkComponent } from './components/about/work/work.component';
-import { EducationComponent } from './components/about/education/education.component';
+import { WorkComponent } from './components/work/work.component';
+import { EducationComponent } from './components/education/education.component';
 import { AboutComponent } from './components/about/about.component';
 import { PageNotFoundComponent } from './components/error/page-not-found/page-not-found.component';
 

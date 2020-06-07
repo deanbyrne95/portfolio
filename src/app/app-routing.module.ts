@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './core/components/home/home.component';
 import { AboutComponent } from './core/components/about/about.component';
-import { WorkComponent } from './core/components/about/work/work.component';
-import { EducationComponent } from './core/components/about/education/education.component';
+import { WorkComponent } from './core/components/work/work.component';
+import { EducationComponent } from './core/components/education/education.component';
 import { PageNotFoundComponent } from './core/components/error/page-not-found/page-not-found.component';
 
 const routes: Routes = [
