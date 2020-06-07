@@ -1,5 +1,7 @@
-import { version } from '../../package.json';
+import { version, dependencies, devDependencies } from '../../package.json';
 export const environment = {
   production: true,
-  appVersion: version
+  appVersion: version,
+  devDependency: devDependencies,
+  dependency: dependencies
 };
