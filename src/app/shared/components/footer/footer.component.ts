@@ -10,11 +10,15 @@ export class FooterComponent implements OnInit {
 
   year: number;
   version: string;
+  dependencies: object;
+  devDependencies: object;
   constructor() { }
 
   ngOnInit() {
     this.year = (new Date()).getFullYear();
     this.version = environment.appVersion;
+    this.dependencies = environment.dependency;
+    this.devDependencies = environment.devDependency;
   }
 
 }

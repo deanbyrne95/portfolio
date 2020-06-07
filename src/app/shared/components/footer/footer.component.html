@@ -2,13 +2,16 @@
     <div class="table-responsive-lg pl-2 pr-2 h-100">
         <table class="table table-sm table-borderless footer-table">
             <tr>
-                <td class="w-25"></td>
+                <td class="w-25 align-middle">
+                    <p class="m-0">Angular CLI: {{ devDependencies['@angular/cli'].substring(1) }}</p>
+                    <p class="m-0">Angular Material: {{ dependencies['@angular/material'].substring(1) }}</p>
+                </td>
                 <td class="w-50 align-middle text-center">
                     <p class="m-0">
                         Copyright <i class="far fa-xs fa-copyright"></i> {{year}}
                     </p>
                 </td>
-                <td class="w-25 text-right">
+                <td class="w-25 align-middle text-right">
                     Version: {{version}}
                 </td>
             </tr>
