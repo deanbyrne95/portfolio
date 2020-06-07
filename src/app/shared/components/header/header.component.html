@@ -1,8 +1,6 @@
 <div class="menu-container">
     <button mat-button routerLink="/home">Home</button>
-    <button mat-button [matMenuTriggerFor]="menu">About</button>
-    <mat-menu #menu="matMenu">
-        <button mat-menu-item routerLink="/about/education">Education</button>
-        <button mat-menu-item routerLink="/about/work">Work</button>
-    </mat-menu>
+    <button mat-button routerLink="/about">About Me</button>
+    <button mat-button routerLink="/education">Education</button>
+    <button mat-button routerLink="/work">Work Experience</button>
 </div>

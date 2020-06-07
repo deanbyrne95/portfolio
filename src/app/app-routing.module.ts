@@ -8,15 +8,10 @@ import { PageNotFoundComponent } from './core/components/error/page-not-found/pa
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
-  { path: 'about', children: [
-    { path: '', component: AboutComponent },
-    { path: 'education', component: EducationComponent },
-    { path: 'work', component: WorkComponent }
-    ]
-  },
+  { path: 'about', component: AboutComponent },
+  { path: 'education', component: EducationComponent },
+  { path: 'work', component: WorkComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: 'education', redirectTo: '/about/education', pathMatch: 'full' },
-  { path: 'work', redirectTo: '/about/work', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent }
 ];
 
